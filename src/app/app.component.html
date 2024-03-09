@@ -28,7 +28,9 @@
         </div>
       </ul>
       <p class="my-4" appBasicHighlight>Style me with basic highlight directive.</p>
-      <p class="my-4" appBetterHighlight>Style with this a better directive.</p>
+      <p class="my-4" appBetterHighlight [defaultColor]="'yellow'" [highlightColor]="'red'">
+        Style with this a better directive.
+      </p>
     </div>
   </div>
 </div>
